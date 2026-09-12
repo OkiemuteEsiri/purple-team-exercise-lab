@@ -2,3 +2,4 @@ exercise_id,technique_id,technique_name,telemetry_source,expected_detection,stat
 PT-001,T1059.001,PowerShell,Process creation and script logging,Suspicious PowerShell behavior alert,validated
 PT-002,T1053.005,Scheduled Task or Job,Task Scheduler operational logs,New scheduled task alert,gap
 PT-003,T1098,Account Manipulation,Directory audit logs,Privileged membership change alert,validated
+PT-004,T1021.001,Remote Desktop Protocol,Authentication and remote session telemetry,Unusual remote interactive logon alert,gap
