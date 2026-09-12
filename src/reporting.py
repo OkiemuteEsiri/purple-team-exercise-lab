@@ -11,7 +11,7 @@ def render_markdown(results: list[dict[str, Any]]) -> str:
     lines = [
         "# Purple Team Validation Assessment",
         "",
-        "> Synthetic defensive validation output. ATT&CK mappings provide threat-model context and do not establish compromise or attribution.",
+        "> Synthetic defensive validation output. ATT&CK mappings are threat-model context, not proof of compromise or attribution.",
         "",
         "## Executive Summary",
         "",
