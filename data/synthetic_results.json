@@ -1,0 +1,54 @@
+[
+  {
+    "exercise_id": "PT-001",
+    "technique_id": "T1059.001",
+    "scenario": "Suspicious PowerShell execution telemetry",
+    "telemetry_observed": true,
+    "detection_fired": true,
+    "analyst_triage_completed": true,
+    "response_action_validated": true,
+    "remediation_applied": false,
+    "retest_passed": true,
+    "evidence_reference": "SYN-EVID-001",
+    "notes": "Detection and analyst workflow validated using benign synthetic process events; no production endpoint execution occurred."
+  },
+  {
+    "exercise_id": "PT-002",
+    "technique_id": "T1053.005",
+    "scenario": "Scheduled task creation monitoring",
+    "telemetry_observed": true,
+    "detection_fired": false,
+    "analyst_triage_completed": false,
+    "response_action_validated": false,
+    "remediation_applied": true,
+    "retest_passed": false,
+    "evidence_reference": "SYN-EVID-002",
+    "notes": "Synthetic event was collected but the expected detection did not fire; rule tuning requires another controlled re-test."
+  },
+  {
+    "exercise_id": "PT-003",
+    "technique_id": "T1098",
+    "scenario": "Privileged group membership change monitoring",
+    "telemetry_observed": true,
+    "detection_fired": true,
+    "analyst_triage_completed": true,
+    "response_action_validated": true,
+    "remediation_applied": true,
+    "retest_passed": true,
+    "evidence_reference": "SYN-EVID-003",
+    "notes": "Synthetic directory-audit records validated alerting, triage, response decision, and re-test workflow."
+  },
+  {
+    "exercise_id": "PT-004",
+    "technique_id": "T1021.001",
+    "scenario": "Unusual remote interactive logon visibility",
+    "telemetry_observed": false,
+    "detection_fired": false,
+    "analyst_triage_completed": false,
+    "response_action_validated": false,
+    "remediation_applied": false,
+    "retest_passed": false,
+    "evidence_reference": "SYN-EVID-004",
+    "notes": "Synthetic test record demonstrates a logging coverage gap; detection efficacy cannot be assessed until telemetry is available."
+  }
+]
